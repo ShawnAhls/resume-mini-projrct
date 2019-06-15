@@ -3,7 +3,7 @@ function initMap() {
         zoom: 3,
         center: {
             lat: 46.619261,
-            lng: -73.134766
+            lng: -33.134766
         }
     });
 
@@ -22,7 +22,5 @@ function initMap() {
         });
     });
 
-    var markerCluster = new MarkerClusterer(map, markers, {
-        imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'
-    });
+    var markerCluster = new MarkerClusterer(map, markers, { imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m' });
 }
